@@ -47,6 +47,7 @@ def get_validation_recalls(r_list,
                 if np.any(np.in1d(pred[:n], gt[q_idx])):
                     correct_at_k[i:] += 1
                     break
+                
         
         correct_at_k = correct_at_k / len(predictions)
         d = {k:v for (k,v) in zip(k_values, correct_at_k)}
