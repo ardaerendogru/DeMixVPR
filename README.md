@@ -38,6 +38,7 @@ The project is organized as follows:
 - `evaluation.py`: Evaluation script
 - `weights/`: Directory to store trained model weights
 
+
 ## Usage
 
 To run experiments and train models, use the `experiments.ipynb` notebook. This notebook contains various experimental setups and configurations for training and evaluating models.
@@ -78,3 +79,6 @@ Model evaluation is performed using the `eval_model` function from `evaluation.p
 
 You can download the pre-trained weights and dataset from the following link:
 [https://drive.google.com/drive/folders/1C7qqH9qhxOm5dKoo6csMS1ldJrPJQzEo?usp=sharing](https://drive.google.com/drive/folders/1C7qqH9qhxOm5dKoo6csMS1ldJrPJQzEo?usp=sharing)
+
+## Report
+Report of the project can be found in the repository as `report.pdf`.
