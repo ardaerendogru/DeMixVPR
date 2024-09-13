@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on visual place recognition and geolocalization using deep learning techniques. It implements and experiments with various models, loss functions, and training strategies to improve the accuracy of place recognition across different datasets.
+This project focuses on visual place recognition and geolocalization using deep learning techniques. It implements and experiments with various models, loss functions, and training strategies to improve the accuracy of place recognition across different datasets and introduces DeMixVPR framework.
 
 ## Table of Contents
 
