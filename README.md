@@ -37,7 +37,7 @@ The project is organized as follows:
 - `train.py`: Training script
 - `evaluation.py`: Evaluation script
 - `weights/`: Directory to store trained model weights
-
+- `data/`: Directory to store RGB images and depth maps datasets.
 
 ## Usage
 
