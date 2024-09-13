@@ -13,8 +13,6 @@ This project focuses on visual place recognition and geolocalization using deep 
 5. [Datasets](#datasets)
 6. [Models](#models)
 7. [Evaluation](#evaluation)
-8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Installation
 
