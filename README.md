@@ -59,12 +59,12 @@ Each experiment can be run by setting the `TRAIN` variable to `True` and executi
 
 The project uses the following datasets:
 
-- GSVCitiesDataset: For training
-- TestDataset: For validation and testing
-- SF_XS Dataset: For testing on San Francisco data
-- Tokyo Dataset: For testing on Tokyo data
+- GSVCities-XS Dataset: For training
+- SF_XS Dataset: For validation and testing 
+- Tokyo-XS Dataset: For testing
 
 Dataset loading and preprocessing are handled in the `datasets/` directory.
+
 
 ## Models
 
@@ -74,3 +74,7 @@ The main model architecture is defined in the `models/helper.py` file. It uses a
 
 Model evaluation is performed using the `eval_model` function from `evaluation.py`. It calculates metrics such as Recall@1 and Recall@5 for the trained models on different test sets.
 
+## Weights and Dataset
+
+You can download the pre-trained weights and dataset from the following link:
+[https://drive.google.com/drive/folders/1C7qqH9qhxOm5dKoo6csMS1ldJrPJQzEo?usp=sharing](https://drive.google.com/drive/folders/1C7qqH9qhxOm5dKoo6csMS1ldJrPJQzEo?usp=sharing)
