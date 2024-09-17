@@ -70,7 +70,7 @@ class GetMultiModel(nn.Module):
             self.fc = nn.Linear(input_size, output_size)
 
         elif aggregator == "mixvpr":
-            self.aggregator_image = MixVPR(in_channels=input_size, out_channels=output_size)        
+            self.aggregator_image = MixVPR(in_channels=input_size, out_channels=output_size//4)        
         else:
             raise ValueError("Aggregator can be either gem or average.")
 
